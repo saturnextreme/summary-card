@@ -101,7 +101,7 @@ ul > li > .btn:active {
     font-size: 30px;
 }
 
-@media only screen and (width < 350px) {
+@media only screen and (width < 500px) {
     *, html {
         margin: 0;
         padding: 0;
