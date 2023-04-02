@@ -1,0 +1,117 @@
+html, * {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 10% 30%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(196, 196, 196);
+    max-width: 700px;
+    min-height: 350px;
+    min-width: 500px;
+}
+ul > li {
+    list-style-type: none;
+}
+ul > li > p {
+    margin: 0;
+    display: inline;
+}
+ul >.l0, .l1, .l2, .l3, .l4 {
+    margin: 10px 25px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+ul > .l0 {
+    text-align: left;
+}
+ul > .l1 {
+    background-color: hsla(0, 100%, 92%, 0.6);
+    color: hsl(0, 100%, 67%);
+}
+ul > .l2 {
+    background-color: hsla(39, 100%, 92%, 0.6);
+    color: hsl(39, 100%, 56%);
+}
+ul > .l3 {
+    background-color: hsla(163, 66%, 91%, 0.6);
+    color: hsl(166, 100%, 37%);
+}
+ul > .l4 {
+    background-color: hsla(232, 69%, 94%, 0.6);
+    color: hsl(234, 85%, 45%);
+}
+ul > .l5 > button {
+    margin: 10px 25px;
+    padding: 10px 70px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    background-color: hsl(234, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+}
+ul > li > .data {
+    color: grey;
+}
+ul > li > .btn:active {
+    transition-duration: 0.2s;
+    background-color: hsl(224, 30%, 27%);
+}
+.col1 {
+    background: linear-gradient(hsl(252, 100%, 67%) 5%, hsl(241, 81%, 54%) 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.sc {
+    color: hsl(0, 0%, 83%);
+    margin-top: 25px;
+}
+.total {
+    color: hsl(0, 0%, 83%);
+    font-size: 15px;
+}
+.col1 > .two {
+    margin: 25px 25px 25px 25px;
+}
+.ress {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: 5% 20%;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.score {
+    color: white;
+    font-size: 40px;
+}
+.gr8 {
+    color: white;
+    font-size: 30px;
+}
+
+@media only screen and (width < 350px) {
+    *, html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        border-radius: none;
+        box-shadow: none;
+        margin: 0;
+    }
+}
